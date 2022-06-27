@@ -1,3 +1,10 @@
 def isValidSubsequence(array, sequence):
     # Write your code here.
-    pass
+    for num in range(len(array)):
+        position = []
+        if array[num] == sequence[num]:
+            position.append(num)
+    if position == sequence:
+        return True
+    else:
+        return False
