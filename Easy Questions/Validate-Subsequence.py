@@ -1,3 +1,4 @@
+# My solution: (passed 9/24 test cases)
 def isValidSubsequence(array, sequence):
     # Write your code here.
     for num in range(len(array)):
